@@ -10,6 +10,24 @@ body {
   text-decoration: none;
 }
 
+.header-mailto:hover,
+.header-mailto:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-link:hover,
+.header-link:focus {
+  color: #4d5ae5;
+}
+.accent {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 .hero-btn:hover,
 .hero-btn:focus {
   background: #404bbf;
@@ -20,6 +38,14 @@ body {
 .header-navigation {
 }
 .header-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 .header-list {
 }
@@ -49,12 +75,6 @@ body {
   color: #434455;
 }
 
-.header-mailto:hover,
-.header-mailto:focus,
-.header-tel:hover,
-.header-tel:focus {
-  color: #4d5ae5;
-}
 .hero {
   background-color: #2e2f42;
 }
@@ -152,4 +172,36 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* CLOUD */
+
+  color: #f4f4fd;
+}
+.link {
+}
+.accent {
+}
+.footer-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
