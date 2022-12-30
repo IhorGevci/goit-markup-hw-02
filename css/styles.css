@@ -31,9 +31,7 @@ body {
   color: #4d5ae5;
 }
 .hero-btn:hover,
-.hero-btn:focus,
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.hero-btn:focus {
   background: #404bbf;
 }
 
@@ -92,7 +90,7 @@ body {
 }
 .hero-btn {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -162,7 +160,7 @@ body {
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -170,7 +168,7 @@ body {
 .team-desc {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
@@ -182,16 +180,11 @@ body {
 .footer-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
-
+  line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* CLOUD */
-
   color: #f4f4fd;
 }
 .link {
@@ -203,7 +196,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
@@ -216,7 +209,36 @@ body {
 }
 .list {
 }
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background: #404bbf;
+}
 .portfolio-btn {
   background: #f4f4fd;
-  color: ;
+  border: none;
+  border-radius: 4px;
+}
+.visually {
+}
+.visually-hidden {
+}
+.visually-list {
+}
+.visually-item {
+}
+.list {
+}
+.visually-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.visually-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
