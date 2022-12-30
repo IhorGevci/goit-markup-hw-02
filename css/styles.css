@@ -9,7 +9,9 @@ body {
 .link {
   text-decoration: none;
 }
-
+.visually-hidden {
+  visibility: hidden;
+}
 .header-mailto:hover,
 .header-mailto:focus,
 .header-tel:hover,
@@ -29,7 +31,9 @@ body {
   color: #4d5ae5;
 }
 .hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:focus,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background: #404bbf;
 }
 
@@ -37,7 +41,7 @@ body {
 }
 .header-navigation {
 }
-.header-logo {
+.logo {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -87,8 +91,6 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  font-family: "Roboto";
-  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   display: flex;
@@ -204,4 +206,17 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+
+.portfolio {
+}
+.visually-hidden {
+}
+.portfolio-list {
+}
+.list {
+}
+.portfolio-btn {
+  background: #f4f4fd;
+  color: ;
 }
