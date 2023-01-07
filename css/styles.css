@@ -50,6 +50,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: inherit;
 }
 
 .contact-link {
@@ -100,7 +101,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var();
+  color: var(--subtitle-color);
 }
 
 /* footer */
